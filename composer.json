@@ -9,7 +9,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "keywords": ["Laravel", "GhanaPhoneNumberValidator"],
+    "keywords": ["Laravel", "GhanaPhoneNumberValidator","Ghana Laravel"],
     "require": {
         "php": "^5.4.0|^7.0",
         "illuminate/support": "~5"
