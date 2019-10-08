@@ -1,0 +1,43 @@
+{
+    "name": "ambrosethebuild/ghanaphonenumbervalidator",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ambrose Bako",
+            "email": "bakoambrose@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": ["Laravel", "GhanaPhoneNumberValidator"],
+    "require": {
+        "php": "^5.4.0|^7.0",
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmbroseTheBuild\\GhanaPhoneNumberValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AmbroseTheBuild\\GhanaPhoneNumberValidator\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AmbroseTheBuild\\GhanaPhoneNumberValidator\\GhanaPhoneNumberValidatorServiceProvider"
+            ],
+            "aliases": {
+                "GhanaPhoneNumberValidator": "AmbroseTheBuild\\GhanaPhoneNumberValidator\\Facades\\GhanaPhoneNumberValidator"
+            }
+        }
+    }
+}
