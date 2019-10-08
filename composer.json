@@ -1,6 +1,6 @@
 {
     "name": "ambrosethebuild/ghanaphonenumbervalidator",
-    "description": ":description",
+    "description": ":A Laravel Package To Validate A Ghana Phone Number and Also Return the network it belongs to",
     "license": "MIT",
     "authors": [
         {

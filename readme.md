@@ -5,7 +5,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+A Laravel Package To Validate A Ghana Phone Number and Also Return the network the phone number belongs to.
 
 ## Installation
 
@@ -13,6 +13,13 @@ Via Composer
 
 ``` bash
 $ composer require ambrosethebuild/ghanaphonenumbervalidator
+```
+
+If you do not run Laravel 5.5 (or higher), then add the service provider in config/app.php:
+
+
+``` bash
+AmbroseTheBuild\GhanaPhoneNumberValidator\GhanaPhoneNumberValidatorServiceProvider::class
 ```
 
 ## Usage
@@ -42,7 +49,7 @@ If you discover any security related issues, please email author email instead o
 
 ## License
 
-license. Please see the [license file](license.md) for more information.
+The MIT License (MIT). Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/ambrosethebuild/ghanaphonenumbervalidator.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/ambrosethebuild/ghanaphonenumbervalidator.svg?style=flat-square
