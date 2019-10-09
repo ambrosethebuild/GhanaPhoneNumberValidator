@@ -1,10 +1,5 @@
 # GhanaPhoneNumberValidator
 
-[![Latest Version on Packagist][ico-version]]
-[![Total Downloads][ico-downloads]][
-[![Build Status][ico-travis]]
-
-
 A Laravel Package To Validate A Ghana Phone Number and Also Return the network the phone number belongs to.
 
 ## Installation
