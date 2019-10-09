@@ -24,6 +24,28 @@ AmbroseTheBuild\GhanaPhoneNumberValidator\GhanaPhoneNumberValidatorServiceProvid
 
 ## Usage
 
+``` bash
+
+use AmbroseTheBuild\GhanaPhoneNumberValidator\GhanaPhoneNumberValidator;
+
+
+class ViewController extends Controller
+{
+    //
+
+    public function ghana_phone_validator( Request $request ){
+        
+        //method takes phone number
+        return GhanaPhoneNumberValidator::isValidGhanaNumber( $request->number );
+        return GhanaPhoneNumberValidator::whichNetwork( $request->number );
+
+    }
+
+
+}
+
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
